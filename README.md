@@ -1,6 +1,6 @@
 # AI-write-workflow
 
-一组用于 Codex CLI 的本地技能（skills），聚焦中文写作场景：去 AI 味、将知识内容改写为结构化参考手册等。
+一组用于 agent(如claude code, codex或其他agent) 的本地技能（skills），聚焦中文写作场景：去 AI 味、将知识内容改写为结构化参考手册等（持续更新）。
 
 ## Skills
 
@@ -9,18 +9,13 @@
 
 ## 安装
 
-将需要的技能目录复制（或软链接）到你的 Codex skills 目录（通常为 `$CODEX_HOME/skills`），结构形如：
+将需要的技能目录复制（或软链接）到你的 $AGENT/skills 目录：
 
-```text
-$CODEX_HOME/skills/
-  humanizer-zh/SKILL.md
-  knowledge-rewriter/SKILL.md
-```
 
 ## 使用
 
-在 Codex 对话中显式提到技能名即可触发（例如 `$humanizer-zh` 或 `humanizer-zh`）。
+在 Codex/Claude Code对话中显式提到技能名即可触发（例如 `$humanizer-zh` 或 `humanizer-zh`）。
 
-- `humanizer-zh`：把需要“去 AI 味”的中文文本贴上来，并说明语境（论文/博客/自媒体/公文等）。
-- `knowledge-rewriter`：把要改写的原始材料贴上来，并说明读者水平与目标风格（如“像官方参考手册”）。
+- `humanizer-zh`：把需要“去 AI 味”的中文文本复制或者@，并说明可选的语境（论文/博客/自媒体/公文等）。
+- `knowledge-rewriter`：把要改写的原始材料贴上来，并可选地说明读者水平与目标风格（如“像官方参考手册”，“用于学习目的”）。
 
