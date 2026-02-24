@@ -1,6 +1,6 @@
 # AI-write-workflow
 
-一组用于 agent(如claude code, codex或其他agent) 的本地技能（skills），聚焦中文写作场景：去 AI 味、将知识内容改写为结构化参考手册等（持续更新）。
+一组用于 agent(如claude code, codex， obsidian claudian或其他agent) 的本地技能（skills），聚焦中文写作场景：去 AI 味、将知识内容改写为结构化参考/知识手册等（持续更新）。
 
 ## Skills
 
